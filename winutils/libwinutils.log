@@ -1,0 +1,17 @@
+﻿Build started 8/24/2017 9:44:17 AM.
+     1>Project "E:\cygwin-exe\usr\local\hadoop-2.3.0-src\hadoop-common-project\hadoop-common\src\main\winutils\libwinutils.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(345,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         E:\vs2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\yousef\Desktop\hadoop-common\winutils\\" /Fd"C:\Users\yousef\Desktop\hadoop-common\winutils\vc110.pdb" /Gd /TC /errorReport:prompt libwinutils.c
+         libwinutils.c
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\adtgen.h(320): warning C4201: nonstandard extension used : nameless struct/union
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\adtgen.h(336): warning C4201: nonstandard extension used : nameless struct/union
+       Lib:
+         E:\vs2012\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\yousef\Desktop\hadoop-common\winutils\libwinutils\libwinutils.lib" /NOLOGO /MACHINE:X64 "C:\Users\yousef\Desktop\hadoop-common\winutils\libwinutils.obj"
+         libwinutils.vcxproj -> C:\Users\yousef\Desktop\hadoop-common\winutils\libwinutils\libwinutils.lib
+     1>Done Building Project "E:\cygwin-exe\usr\local\hadoop-2.3.0-src\hadoop-common-project\hadoop-common\src\main\winutils\libwinutils.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.35
